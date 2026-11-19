@@ -1,0 +1,4 @@
+service,owner,tier,recovery_time_objective,region
+payments,Payments Platform,Tier 1,30 minutes,asia-south1
+order-api,Commerce Engineering,Tier 1,45 minutes,asia-south1
+analytics,Data Engineering,Tier 2,4 hours,us-central1

@@ -1,0 +1,77 @@
+{
+  "mode": "demo",
+  "dataset": "8 synthetic smoke cases; not representative of enterprise workloads",
+  "passed": 8,
+  "total": 8,
+  "median_latency_ms": 3.31,
+  "cases": [
+    {
+      "question": "What is the response time for a P1 incident?",
+      "passed": true,
+      "expected_source": "incident_runbook.md",
+      "actual_sources": [
+        "incident_runbook.md"
+      ],
+      "latency_ms": 6.77
+    },
+    {
+      "question": "How often does the incident commander post a status update?",
+      "passed": true,
+      "expected_source": "incident_runbook.md",
+      "actual_sources": [
+        "incident_runbook.md"
+      ],
+      "latency_ms": 2.87
+    },
+    {
+      "question": "What is the domestic hotel expense limit?",
+      "passed": true,
+      "expected_source": "expense_policy.txt",
+      "actual_sources": [
+        "expense_policy.txt"
+      ],
+      "latency_ms": 4.07
+    },
+    {
+      "question": "When must reimbursement claims be submitted?",
+      "passed": true,
+      "expected_source": "expense_policy.txt",
+      "actual_sources": [
+        "expense_policy.txt"
+      ],
+      "latency_ms": 4.03
+    },
+    {
+      "question": "Who owns the payments service?",
+      "passed": true,
+      "expected_source": "service_catalog.csv",
+      "actual_sources": [
+        "service_catalog.csv"
+      ],
+      "latency_ms": 3.74
+    },
+    {
+      "question": "What is the recovery time objective for analytics?",
+      "passed": true,
+      "expected_source": "service_catalog.csv",
+      "actual_sources": [
+        "service_catalog.csv"
+      ],
+      "latency_ms": 2.23
+    },
+    {
+      "question": "Who won the Wimbledon championship?",
+      "passed": true,
+      "expected_source": null,
+      "actual_sources": [],
+      "latency_ms": 2.73
+    },
+    {
+      "question": "What is the capital of Argentina?",
+      "passed": true,
+      "expected_source": null,
+      "actual_sources": [],
+      "latency_ms": 2.74
+    }
+  ]
+}
